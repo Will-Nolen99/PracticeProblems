@@ -19,7 +19,7 @@ def is_unique_no_dict(word):
 
     for letter in word:  # Iterate through word
         value = ord(letter)
-        if not possible_chars[value]: 
+        if not possible_chars[value]:
             possible_chars[value] = True
         else:
             return False
